@@ -44,3 +44,6 @@ loss vs metric - Different coz of their purpose
     - Unfortunately, because transfer learning is so under-studied, few domains have pretrained models available.
     - For instance, there are currently few pretrained models available in medicine, making transfer learning challenging to use in that domain. 
     - In addition, it is not yet well understood how to use transfer learning for tasks such as time series analysis.
+
+- Fine-tuning: 
+    - A transfer learning technique where the parameters of a pretrained model are updated by training for additional epochs using a different task to that used for pretraining.
